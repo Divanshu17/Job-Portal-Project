@@ -13,10 +13,9 @@ const Home = () => {
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <div className="relative h-[600px] overflow-hidden">
-        {/* Background Image instead of video for reliability */}
+       
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900 to-gray-900" />
 
-        {/* Content */}
         <div className="relative h-full flex items-center">
           <div className="container mx-auto px-6">
             <div className="max-w-3xl">
@@ -28,7 +27,6 @@ const Home = () => {
                 Connect with leading companies and find opportunities that match your expertise
               </p>
 
-              {/* Search Bar */}
               <div className="bg-white p-2 rounded-lg shadow-lg flex items-center gap-2 max-w-2xl">
                 <div className="flex-1 flex items-center gap-2 px-4 py-3">
                   <Search className="w-5 h-5 text-gray-400" />
@@ -94,7 +92,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Stats Section */}
       <div className="bg-gray-50 py-20">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -113,7 +110,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* CTA Section */}
       <div className="bg-blue-600 py-20">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">

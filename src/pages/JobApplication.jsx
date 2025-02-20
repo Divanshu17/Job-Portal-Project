@@ -70,12 +70,11 @@ function JobApplication() {
           </div>
         </div>
 
-        {/* Application Form */}
         <div className="bg-white rounded-lg shadow-sm p-6">
           <h2 className="text-xl font-semibold text-gray-900 mb-6">Submit Your Application</h2>
           
           <form onSubmit={handleSubmit} className="space-y-6">
-            {/* Personal Information */}
+     
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -130,7 +129,6 @@ function JobApplication() {
               </div>
             </div>
 
-            {/* Professional Information */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
@@ -188,7 +186,6 @@ function JobApplication() {
               </div>
             </div>
 
-            {/* Cover Letter */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Cover Letter
@@ -202,7 +199,6 @@ function JobApplication() {
               />
             </div>
 
-            {/* Resume Upload */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Resume
@@ -230,7 +226,6 @@ function JobApplication() {
               </div>
             </div>
 
-            {/* Terms Agreement */}
             <div className="flex items-start">
               <input
                 type="checkbox"
@@ -244,7 +239,6 @@ function JobApplication() {
               </label>
             </div>
 
-            {/* Form Actions */}
             <div className="flex justify-end space-x-4 pt-4">
               <button
                 type="button"

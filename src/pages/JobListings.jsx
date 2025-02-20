@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 function JobListings() {
   const [searchTerm, setSearchTerm] = useState('')
   
-  // Mock job data
   const jobs = [
     {
       id: 1,
@@ -31,7 +30,7 @@ function JobListings() {
       type: 'Full-time',
       salary: '$120k - $150k',
     },
-    // Add more mock jobs as needed
+
   ]
 
   return (

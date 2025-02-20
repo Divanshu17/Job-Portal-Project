@@ -55,7 +55,7 @@ function Login() {
 
           {/* Login Form */}
           <form className="space-y-5" onSubmit={handleSubmit}>
-            {/* Email Input */}
+         
             <div className="relative">
               <FaUser className="absolute left-4 top-3 text-gray-500" size={18} />
               <input
@@ -68,7 +68,6 @@ function Login() {
               />
             </div>
 
-            {/* Password Input */}
             <div className="relative">
               <FaLock className="absolute left-4 top-3 text-gray-500" size={18} />
               <input
@@ -94,7 +93,6 @@ function Login() {
               </Link>
             </div>
 
-            {/* Sign In Button */}
             <button
               type="submit"
               className="w-full rounded-lg bg-blue-600 py-3 text-lg font-semibold text-white shadow-md transition duration-300 hover:bg-blue-700"
@@ -102,7 +100,6 @@ function Login() {
               Sign In
             </button>
 
-            {/* Admin Login Button */}
             <button
               type="button"
               onClick={handleAdminLogin}
@@ -114,7 +111,6 @@ function Login() {
         </div>
       </div>
 
-      {/* Right Side - Signup Invitation */}
       <div className="hidden lg:flex w-1/2 bg-gradient-to-r from-gray-900 to-gray-800 p-12 text-white items-center justify-center shadow-xl">
         <div className="text-center">
           <h2 className="text-4xl font-bold">New Here?</h2>
